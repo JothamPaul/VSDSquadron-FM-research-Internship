@@ -90,7 +90,7 @@ Testing with the old version.
 Difficulty in establishing UART communication for debugging.  
 **Solution:** Configured picocom with the correct baud rate and port settings specified in the Makefile.  
 
-## Working Verilog Code (top.v):
+## Working Verilog Code:
 Working of the LED blinking along with clock division and reset.  
 2.	Pin limitation File (VSDSquadronFM.pcf):  
 Provides us with the exact pin mappings for the FPGA Mini board.  
