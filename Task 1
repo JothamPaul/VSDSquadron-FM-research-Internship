@@ -44,21 +44,13 @@ Outcome
 
 Step 1: Open Xubuntu:
 
-
-Step 2: Open terminal and open VSDSquadron_FM:
- 
-Step 3: Then open blink led in VSDSQUADRON_FM:
- 
-Step 4: Now we need to let the power reach the board:
- 
-Step 5: Then use the command lsusb to check if the code can reach the board:
- 
-Step 6: Then clean all the extra builds using make clean:
- 
-Step 7: Then use the command make build:
- 
-Step 8: Finally use the command sudo make flash then enter sudo password:
- 
+Step 2: Open terminal and open VSDSquadron_FM: 
+Step 3: Then open blink led in VSDSQUADRON_FM: 
+Step 4: Now we need to let the power reach the board: 
+Step 5: Then use the command lsusb to check if the code can reach the board: 
+Step 6: Then clean all the extra builds using make clean: 
+Step 7: Then use the command make build: 
+Step 8: Finally use the command sudo make flash then enter sudo password: 
 
 
 4. Challenges Faced and Solutions Implemented
