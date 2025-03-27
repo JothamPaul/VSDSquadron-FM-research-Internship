@@ -1,6 +1,7 @@
 # VSDSquadron-FM-research-Internship
 
-
+<details>
+<summary>Task 1 </summary>
 # VSDFPGA Task 1 - VSDSquadron FPGA Mini: Verilog and PCF Task 
 
 # 1. Understanding the Verilog Code
@@ -96,3 +97,4 @@ Working of the LED blinking along with clock division and reset.
 Provides us with the exact pin mappings for the FPGA Mini board.  
 3.	Makefile:  
 Automates the ‘make clean’ and ‘make build’
+</details>
