@@ -106,7 +106,7 @@ Automates the ‘make clean’ and ‘make build’
 
 # Task List for Understanding and Implementing the Verilog Code on the VSDSquadron FPGA Mini Board
 
-**Objective:**  To understand and document the provided Verilog code, create the necessary PCF file, and integrate the design with the VSDSquadron FPGA Mini board.
+**Objective:** To understand and document the provided Verilog code, create the necessary PCF file, and integrate the design with the VSDSquadron FPGA Mini board.
 
 ## Introduction
 The Universal Asynchronous Receiver-Transmitter (UART) loopback mechanism is an essential testing feature, enabling developers to verify data transmission and reception functionality within an FPGA-based system. This project involves designing, implementing, and testing a UART loopback system using Verilog, synthesizing it onto the VSDSquadron FPGA Mini, and verifying its functionality.  
