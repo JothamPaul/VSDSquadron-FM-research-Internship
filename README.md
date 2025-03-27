@@ -103,23 +103,25 @@ Automates the ‘make clean’ and ‘make build’
 <details>
 
 <summary>Task 2 </summary>
+
 # Task List for Understanding and Implementing the Verilog Code on the VSDSquadron FPGA Mini Board
 
 **Objective:**  To understand and document the provided Verilog code, create the necessary PCF file, and integrate the design with the VSDSquadron FPGA Mini board.
 
 ## Introduction
-The Universal Asynchronous Receiver-Transmitter (UART) loopback mechanism is an essential testing feature, enabling developers to verify data transmission and reception functionality within an FPGA-based system. This project involves designing, implementing, and testing a UART loopback system using Verilog, synthesizing it onto the VSDSquadron FPGA Mini, and verifying its functionality.
+The Universal Asynchronous Receiver-Transmitter (UART) loopback mechanism is an essential testing feature, enabling developers to verify data transmission and reception functionality within an FPGA-based system. This project involves designing, implementing, and testing a UART loopback system using Verilog, synthesizing it onto the VSDSquadron FPGA Mini, and verifying its functionality.  
 
 ## Code
 **Repository Access:**
-The uart_loopback project was downloaded from the VSDSquadron_FM repository.
-The Verilog files were cloned locally for analysis.
+The uart_loopback project was downloaded from the VSDSquadron_FM repository.  
+The Verilog files were cloned locally for analysis.  
 ### Key Modules:
-**o	UART Transmitter (TX) and Receiver (RX):**
-The uart_trx.v file contains the implementation of both the UART transmitter and receiver functionalities. This module manages the data transmission and reception processes.
+**o	UART Transmitter (TX) and Receiver (RX):**  
+The uart_trx.v file contains the implementation of both the UART transmitter and receiver functionalities. This module manages the data transmission and reception processes.  
 **o	Top-Level Module:**
-The top.v file serves as the top-level module, integrating the UART transceiver and establishing the loopback connection.
-•	Create a folder called uart_loopback then fill it with the makefile pcf file top.v and the uart_trx file:
+The top.v file serves as the top-level module, integrating the UART transceiver and establishing the loopback connection.  
+
+•	Create a folder called uart_loopback then fill it with the makefile pcf file top.v and the uart_trx file:  
 ![image](https://github.com/user-attachments/assets/754e52b5-ca57-43a1-88b5-999cea567003)
 
 
@@ -133,46 +135,46 @@ The top.v file serves as the top-level module, integrating the UART transceiver 
  
 
 ## Hardware Implementation
-### Hardware Setup:
-o	The VSDSquadron FPGA Mini was securely connected to a PC via a USB-UART converter.
+### Hardware Setup:  
+o	The VSDSquadron FPGA Mini was securely connected to a PC via a USB-UART converter.  
 
-### Code Synthesis and Upload:
+### Code Synthesis and Upload:  
 o	The Verilog code was synthesized and  was uploaded to the FPGA
 
 ### Process:
-•	Open terminal then enter the following code
- ![image](https://github.com/user-attachments/assets/09a6e302-a5e5-487d-92bc-531789cbb17f)
+•	Open terminal then enter the following code  
+ ![image](https://github.com/user-attachments/assets/09a6e302-a5e5-487d-92bc-531789cbb17f)  
 
-•	Then type lsusb then make build
- ![image](https://github.com/user-attachments/assets/418f519e-e90e-47bf-86a9-f8e4520fcaef)
+•	Then type lsusb then make build  
+ ![image](https://github.com/user-attachments/assets/418f519e-e90e-47bf-86a9-f8e4520fcaef)  
 
-•	Then type sudo make flash
- ![image](https://github.com/user-attachments/assets/eb808561-da58-4a47-bf07-d182ba6437c9)
+•	Then type sudo make flash  
+ ![image](https://github.com/user-attachments/assets/eb808561-da58-4a47-bf07-d182ba6437c9)  
 
 
 ## Testing and Verification
-### Serial Terminal Configuration:
-Open docklight on windows then go to tools then project settings then type the required COM then fill in the baud rate:
- ![image](https://github.com/user-attachments/assets/f71777b1-2c58-4c94-9659-e51f9e9061fe)
+### Serial Terminal Configuration:  
+Open docklight on windows then go to tools then project settings then type the required COM then fill in the baud rate:  
+ ![image](https://github.com/user-attachments/assets/f71777b1-2c58-4c94-9659-e51f9e9061fe)  
 
-Double click the box under name then fill in the following info:
- ![image](https://github.com/user-attachments/assets/4dde2ff9-684a-4824-a942-87d13334b264)
+Double click the box under name then fill in the following info:  
+ ![image](https://github.com/user-attachments/assets/4dde2ff9-684a-4824-a942-87d13334b264)  
 
 
-## Testing Process:
-o	Data was transmitted from the PC to the FPGA.
-o	Successful loopback was confirmed when the same data was received back on the serial terminal.
+## Testing Process:  
+o	Data was transmitted from the PC to the FPGA.  
+o	Successful loopback was confirmed when the same data was received back on the serial terminal.  
 
-Then click on apply and okay then click on the arrow next to the box:
- ![image](https://github.com/user-attachments/assets/9e04e4e9-4244-48e6-afc4-120ebcfee559)
+Then click on apply and okay then click on the arrow next to the box:  
+ ![image](https://github.com/user-attachments/assets/9e04e4e9-4244-48e6-afc4-120ebcfee559)  
 
 
 
 ## Results
-The UART loopback mechanism was successfully implemented and tested. The system consistently returned transmitted data without errors, validating the functionality of the TX and RX modules.
+The UART loopback mechanism was successfully implemented and tested. The system consistently returned transmitted data without errors, validating the functionality of the TX and RX modules.  
 
-## Conclusion
-This project demonstrated the successful implementation of a UART loopback system, achieving its objective of verifying UART functionality through hardware testing and documentation. The outcomes provide a reliable framework for further UART-based developments on the VSDSquadron FPGA Mini.
+## Conclusion  
+This project demonstrated the successful implementation of a UART loopback system, achieving its objective of verifying UART functionality through hardware testing and documentation. The outcomes provide a reliable framework for further UART-based developments on the VSDSquadron FPGA Mini.  
 
 
 </details>
