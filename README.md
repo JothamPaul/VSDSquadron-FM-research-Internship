@@ -125,7 +125,8 @@ The top.v file serves as the top-level module, integrating the UART transceiver 
 
 ## Block Diagram and Circuit Diagram
  
-![image](https://github.com/user-attachments/assets/c331c065-cee6-463a-b7b9-a077e03e526c)
+![image](https://github.com/user-attachments/assets/e7498361-d3c6-41f1-99bd-742cff08e27c)
+
 
 ![image](https://github.com/user-attachments/assets/da454bb3-a3ed-44ee-bd5a-467f21a7f153)
 
