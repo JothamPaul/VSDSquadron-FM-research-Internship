@@ -186,3 +186,90 @@ This project demonstrated the successful implementation of a UART loopback syste
 
 
 </details>
+
+
+
+
+<details>
+
+<summary>Task 3 </summary>
+
+# Task 3: Develop a UART transmitter module capable of sending serial data from the FPGA to an external device.
+
+## Introduction:   
+The Universal Asynchronous Receiver-Transmitter (UART) transmitter module is essential for serial communication, allowing FPGA-based systems to send data to external devices. This project involves designing, implementing, and testing a UART transmitter using Verilog, synthesizing it onto the VSDSquadron FPGA Mini, and verifying its functionality.  
+
+## Study the Existing Code
+### Repository Access:
+o	The uart_tx project was accessed from the VSDSquadron_FM repository.
+
+### Code Analysis:
+o	Key modules, including the TX (transmitter), were identified.
+o	The baud rate generator and clock divider were analyzed.
+o	The sequential process of loading and shifting data was studied.
+
+## Design Documentation
+### Block Diagram:
+o	A high-level block diagram was created to illustrate the UART transmission process, highlighting:  
+	Data input.  
+	Baud rate generator.  
+	TX shift register.  
+	Transmission to the external device.  
+![image](https://github.com/user-attachments/assets/8248c442-5f2d-49f4-9934-8d0e106d3644)
+
+### Circuit Diagram:
+o	A detailed circuit diagram was developed, showing:  
+	Connections between the FPGA TX pin and the receiving device.  
+	Peripheral connections such as power and ground.  
+![image](https://github.com/user-attachments/assets/192434e7-214e-4e52-854f-e02c9301b3d9)
+
+## Hardware Implementation
+### Hardware Setup:
+o	The VSDSquadron FPGA Mini was connected to a PC via a USB-UART converter.
+o	Connections were verified against the circuit diagram.
+### Code Synthesis and Upload:
+o	The following steps were followed:
+1.	Open the uart_transmission file in the terminal.
+2.	Connect the board and verify it through lsusb.
+3.	Run the commands make build and sudo make flash to build and upload the Verilog code to the FPGA.
+
+## Testing and Verification
+### Serial Terminal Configuration:
+o	You can download PuTTY from the URL- https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
+o	A serial terminal (e.g., PuTTY) was configured with:
+	Baud rate matching the Verilog UART setup.
+	Correct data bits, stop bits, and parity settings.
+o	The correct port was selected for communication.
+### Testing Process:
+o	Data was transmitted from the FPGA.
+o	Successful transmission was confirmed by observing the expected output in the serial terminal.
+
+First create a file known as uart_transmission:  
+ ![image](https://github.com/user-attachments/assets/41fb3ed5-9ce5-4985-8014-bb47e6a9082e)  
+
+Open the file in terminal:  
+![image](https://github.com/user-attachments/assets/c3b2716a-fdc8-44eb-921f-631a773e85eb)  
+
+ 
+Then connect the board and verify it through lsusb:  
+ ![image](https://github.com/user-attachments/assets/e6b315dc-e2d7-4905-9b42-009d5cc6a753)  
+
+Then use the commands make build and sudo make flash   
+![image](https://github.com/user-attachments/assets/57f2857a-f5d5-464e-bfdf-f0fb7259b557)  
+
+ 
+Then download putty in windows and follow the following instructions(you can change the port to your recuired port):  
+![image](https://github.com/user-attachments/assets/d0de6e1d-45ba-4562-a9cf-d4fe92459893)  
+
+ 
+If you have followed all these instructions correctly then you will see this:  
+![image](https://github.com/user-attachments/assets/dc568e9a-e153-4668-9047-d51fd9619919)  
+
+
+
+## Results
+The UART transmitter module was successfully implemented and tested. The system consistently transmitted data without errors, verifying the proper functionality of the TX module.
+
+
+
+</details>
