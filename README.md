@@ -99,6 +99,10 @@ Provides us with the exact pin mappings for the FPGA Mini board.
 Automates the ‘make clean’ and ‘make build’
   
   
+
+https://github.com/user-attachments/assets/d148716a-8fc4-4241-81a6-2c84a56b3611
+
+
   
   
   
@@ -175,6 +179,10 @@ o	Successful loopback was confirmed when the same data was received back on the 
 
 Then click on apply and okay then click on the arrow next to the box:  
  ![image](https://github.com/user-attachments/assets/9e04e4e9-4244-48e6-afc4-120ebcfee559)  
+
+
+
+https://github.com/user-attachments/assets/dca18de7-b7e4-4452-abef-6580c3c861f4
 
 
 
@@ -267,6 +275,10 @@ If you have followed all these instructions correctly then you will see this:
 
 
 
+https://github.com/user-attachments/assets/35549a42-8596-4ec6-8d02-84e0988d58af
+
+
+
 ## Results
 The UART transmitter module was successfully implemented and tested. The system consistently transmitted data without errors, verifying the proper functionality of the TX module.
 
@@ -348,6 +360,11 @@ A detailed circuit schematic is developed
 ### Edge Case Testing:
 •	Handling sensor disconnections or incorrect data
 •	Evaluating system response to noise and erroneous inputs
+
+
+
+https://github.com/user-attachments/assets/46057fa7-9f81-4891-ae68-9de43c1ae93d
+
 
 ## Result: 
 Here is the completed document outlining the implementation of the UART transmitter for sensor data communication.
