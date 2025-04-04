@@ -273,3 +273,85 @@ The UART transmitter module was successfully implemented and tested. The system 
 
 
 </details>
+
+
+
+
+<details>
+
+<summary>Task 4 </summary>
+
+# Task 4: Implement a UART transmitter that sends data based on sensor inputs, enabling the FPGA to communicate real-time sensor data to an external device.  
+
+
+## Study of Existing Code
+The uart_tx_sense module from the VSDSquadron_FM repository is reviewed to understand:  
+•	Sensor data acquisition mechanisms  
+•	UART transmission implementation  
+•	Baud rate and data format configuration  
+•	Handling of buffer storage and flow control  
+
+## Design Documentation
+### Block Diagram:
+A block diagram is created to illustrate the data flow from the sensor to the FPGA and through the UART transmitter to the receiving device.  
+ ![image](https://github.com/user-attachments/assets/bfa015e3-7b51-4371-9e20-93550abc1645)
+
+
+### Circuit Diagram:
+A detailed circuit schematic is developed  
+ ![image](https://github.com/user-attachments/assets/27c5f542-f6aa-41c0-ab1f-14d8f053ecfc)
+
+
+## Implementation
+### Hardware Setup:
+•	Connecting the sensor to the FPGA board
+•	Ensuring power supply and signal integrity
+### Verilog Code Implementation:
+•	Data acquisition from the sensor
+•	UART communication module with proper baud rate and frame settings
+•	Buffer/FIFO implementation for stable data transmission
+### Synthesis & Deployment:
+•	Synthesis using FPGA toolchain (Vivado/Quartus/etc.)
+•	Loading the bitstream onto the FPGA
+•	Initial debugging using onboard LEDs or logic analyzers
+
+### Create a new file in uart_transmission:  
+![image](https://github.com/user-attachments/assets/9f818a6a-4922-46d6-b49c-4c6f43e1f70f)  
+
+ 
+### Open this file in terminal:
+![image](https://github.com/user-attachments/assets/3c11c89b-1f90-4e4c-8841-b58a03bd8fc6)  
+
+ 
+### Use lsusb to verify that the board is connected and also use make build:  
+![image](https://github.com/user-attachments/assets/76dcdac6-62f1-4ed8-b09f-4d67394be424)  
+
+ 
+### Use the command sudo make flash:  
+![image](https://github.com/user-attachments/assets/a065be11-2330-4681-9ce7-851d5372caec)  
+
+ 
+### Open PuTTy in windows and follow the commands as given below:  
+![image](https://github.com/user-attachments/assets/d624463f-5f27-4b5d-aabf-323a531bb72d)  
+
+ 
+### Click open you will see as follows:
+ ![image](https://github.com/user-attachments/assets/16cfae46-1c89-49d1-b884-8a302337db8f)
+
+
+
+## Testing & Verification
+### Sensor Data Validation:
+•	Comparing raw sensor readings with UART-transmitted values
+### Serial Terminal Monitoring:
+•	Using PuTTY to capture transmitted data
+### Edge Case Testing:
+•	Handling sensor disconnections or incorrect data
+•	Evaluating system response to noise and erroneous inputs
+
+## Result: 
+Here is the completed document outlining the implementation of the UART transmitter for sensor data communication.
+
+
+
+</details>
