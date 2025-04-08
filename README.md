@@ -372,3 +372,58 @@ Here is the completed document outlining the implementation of the UART transmit
 
 
 </details>
+
+
+<details>
+<summary>Task 5 </summary>
+
+# Project Themes:
+
+**Real-Time Sensor Data Acquisition and Transmission System:** This theme focuses on developing systems that interface with various sensors to collect data, process it using the FPGA, and transmit the information to external devices through communication protocols like UART.​  
+
+
+## Introduction
+This project uses an FPGA to read sensor data and send it to another device like a PC using UART (Universal Asynchronous Receiver-Transmitter). It helps in sending real-time sensor data for display or analysis.
+Research  
+•	Code to read data from a sensor  
+•	UART code to send data out  
+•	How to set communication settings like speed and format  
+
+[UART Serial Port Module Implementation] (https://nandland.com/uart-serial-port-module/)   
+[Transmitter and receiver implementations] (https://www.instructables.com/UART-Communication-on-Basys-3-FPGA-Dev-Board-Power/)  
+[Implementation of a UART controller, including aspects like baud rate support] (https://chipmunklogic.com/ip-cores/design-of-uart-controller/)  
+[FPGA-Based Multi-Channel Real-Time Data Acquisition System] (https://www.mdpi.com/2079-9292/13/15/2950)
+[UART Communication Link Implementation] (https://chandulanethmal.github.io/electronics/embedded/fpga/programming/UART-Communication-Link/)
+[FPGA-Based Data Logger with LCD, ADC, UART & I2C] (https://www.youtube.com/watch?v=2Yd0p61pkWk)
+[UART Protocol Implementation in Verilog] (https://github.com/ben-marshall/uart)
+[Designing an RS232 UART Controller Using FPGA] (https://www.electronicsforu.com/electronics-projects/software-projects-ideas/designing-fpgas-rs232-uart-controller-part-3-5)
+
+
+## Requirements  
+
+### Hardware:  
+•	FPGA board  
+•	A sensor (temperature, IR, ultrasonic, tilt)  
+•	USB-to-Serial converter   
+•	PC or microcontroller  
+•	Buzzer  
+•	Led light  
+
+### Software:    
+•	Verilog  
+•	Docklight  
+
+ ## Block Diagram
+ ![image](https://github.com/user-attachments/assets/c50ef49b-f918-40f9-9bff-b749ba8c58a6)
+
+
+## Project Plan
+**Research and Planning:** Study UART, sensor communication, and review existing Verilog implementations.  
+**Component Collection and Diagram Design:** Collect all necessary hardware and software tools; create block and circuit diagrams.  
+**Verilog Coding and Simulation:** Write code to acquire sensor data and implement UART transmission; simulate the design.  
+**Hardware Setup and Testing:** Connect hardware as per the diagram; begin live testing, ensure reliable UART transmission.  
+**Report and Demo Video:** Documenting the process and results; record a video demo showing real-time data output.  
+
+
+</details>
+
