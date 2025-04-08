@@ -389,6 +389,8 @@ Research
 •	UART code to send data out  
 •	How to set communication settings like speed and format  
 
+
+### Research done the below websites:
 [UART Serial Port Module Implementation] (https://nandland.com/uart-serial-port-module/)   
 [Transmitter and receiver implementations] (https://www.instructables.com/UART-Communication-on-Basys-3-FPGA-Dev-Board-Power/)  
 [Implementation of a UART controller, including aspects like baud rate support] (https://chipmunklogic.com/ip-cores/design-of-uart-controller/)  
