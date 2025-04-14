@@ -433,10 +433,10 @@ Research
 <summary>Task 6 </summary>
 
 # Implement the Project and Document the Process  
-
+## Circuit Diagram
 ![Screenshot 2025-04-15 003053](https://github.com/user-attachments/assets/f279482f-3724-4424-8f13-21593701a761)
 
-
+## Project Demonstration Video  
 https://github.com/user-attachments/assets/e9a09c13-4941-4ecc-b7dd-25646a2f8134
 
 
