@@ -405,7 +405,7 @@ Research
 
 ### Hardware:  
 •	FPGA board  
-•	A sensor (temperature, IR, ultrasonic, tilt)  
+•	A sensor ( ultrasonic)  
 •	USB-to-Serial converter   
 •	PC or microcontroller  
 •	Buzzer  
@@ -429,3 +429,15 @@ Research
 
 </details>
 
+<details>
+<summary>Task 6 </summary>
+
+# Implement the Project and Document the Process  
+
+
+
+https://github.com/user-attachments/assets/e9a09c13-4941-4ecc-b7dd-25646a2f8134
+
+
+
+</details>
